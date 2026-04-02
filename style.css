@@ -60,14 +60,3 @@ footer {
         transform: translateY(0);
     }
 }
-
-.piada {
-    font-size: 18px;
-    margin-bottom: 10px;
-}
-
-.resposta {
-    margin-top: 10px;
-    font-weight: bold;
-    color: #ff5722;
-}
