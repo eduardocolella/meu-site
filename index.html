@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Site do brabo🚀</h1>
+        <p>Projeto simples</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Sobre</h2>
+            <p>Foi dificil chegar aqui home.</p>
+        </section>
+
+        <section>
+            <h2>Contato</h2>
+            <button onclick="mostrarMensagem()">Clique aqui</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 - Meu Site</p>
+    </footer>
+
+    <script>
+        function mostrarMensagem() {
+            alert("Você clicou no botão!");
+        }
+    </script>
+
+    <section>
+    <h2>Mensagem Especial</h2>
+    <p class="mensagem animada">Salva nos Patrick, tu é o cara 😎</p>
+</section>
+<section>
+    <h2>Piada do Dia 🤡</h2>
+    <p class="piada">Por que o programador foi ao médico? 🤔</p>
+    <button onclick="mostrarPiada()">Ver resposta</button>
+    <p id="resposta" class="resposta"></p>
+</section>
+<script>
+    function mostrarMensagem() {
+        alert("Você clicou no botão!");
+    }
+
+    function mostrarPiada() {
+        document.getElementById("resposta").innerText =
+            "Porque ele estava com muitos bugs! 🐛😂-------------> Chatgpt é muito engraçado men";
+    }
+</script>
+
+</body>
+</html>
